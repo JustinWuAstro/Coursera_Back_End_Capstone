@@ -20,7 +20,6 @@ from restaurant import views
 
 router = DefaultRouter()
 router.register(r'tables', views.BookingViewSet)
-router.register(r'menu-items', views.SingleMenuItemView)
 router.register(r'users', views.UserViewSet)
 
 urlpatterns = [
